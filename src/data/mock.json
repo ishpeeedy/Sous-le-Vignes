@@ -1,0 +1,586 @@
+{
+  "id": "burgundy",
+  "name": "Burgundy",
+  "type": "region",
+  "children": [
+    {
+      "id": "cote-de-nuits",
+      "name": "Côte de Nuits",
+      "type": "subregion",
+      "description": "A 20km strip of hillside south of Dijon. All 33 red Grands Crus of Burgundy live here.",
+      "children": [
+        {
+          "id": "vosne-romanee",
+          "name": "Vosne-Romanée",
+          "type": "village",
+          "children": [
+            {
+              "id": "romanee-conti",
+              "name": "Romanée-Conti",
+              "type": "climat",
+              "classification": "grand-cru",
+              "area_ha": 1.8,
+              "geology_summary": "Exceptionally thin topsoil over shallow oolitic limestone. Root systems reach bedrock within 1.5m. The restricted water access stresses the vine into producing concentrated, complex fruit.",
+              "strata": [
+                {
+                  "id": "topsoil",
+                  "name": "Topsoil",
+                  "name_fr": "Terre végétale",
+                  "depth_start": 0,
+                  "depth_end": 20,
+                  "color": "#d4b896"
+                },
+                {
+                  "id": "clay",
+                  "name": "Clay-Limestone",
+                  "name_fr": "Argilo-calcaire",
+                  "depth_start": 20,
+                  "depth_end": 55,
+                  "color": "#c4a060"
+                },
+                {
+                  "id": "limestone",
+                  "name": "Oolitic Limestone",
+                  "name_fr": "Calcaire oolithique",
+                  "depth_start": 55,
+                  "depth_end": 130,
+                  "color": "#e8dfc8"
+                },
+                {
+                  "id": "marl",
+                  "name": "Marl",
+                  "name_fr": "Marnes",
+                  "depth_start": 130,
+                  "depth_end": 220,
+                  "color": "#9aacb0"
+                },
+                {
+                  "id": "bedrock",
+                  "name": "Bedrock",
+                  "name_fr": "Roche mère",
+                  "depth_start": 220,
+                  "depth_end": 320,
+                  "color": "#6b6058"
+                }
+              ]
+            },
+            {
+              "id": "la-tache",
+              "name": "La Tâche",
+              "type": "climat",
+              "classification": "grand-cru",
+              "area_ha": 6.1,
+              "geology_summary": "Deeper clay band than Romanée-Conti. Greater water retention. Produces wines with more body and darker fruit character despite being 300 metres away.",
+              "strata": [
+                {
+                  "id": "topsoil",
+                  "name": "Topsoil",
+                  "name_fr": "Terre végétale",
+                  "depth_start": 0,
+                  "depth_end": 35,
+                  "color": "#d4b896"
+                },
+                {
+                  "id": "clay",
+                  "name": "Clay-Limestone",
+                  "name_fr": "Argilo-calcaire",
+                  "depth_start": 35,
+                  "depth_end": 95,
+                  "color": "#c4a060"
+                },
+                {
+                  "id": "limestone",
+                  "name": "Oolitic Limestone",
+                  "name_fr": "Calcaire oolithique",
+                  "depth_start": 95,
+                  "depth_end": 160,
+                  "color": "#e8dfc8"
+                },
+                {
+                  "id": "marl",
+                  "name": "Marl",
+                  "name_fr": "Marnes",
+                  "depth_start": 160,
+                  "depth_end": 240,
+                  "color": "#9aacb0"
+                },
+                {
+                  "id": "bedrock",
+                  "name": "Bedrock",
+                  "name_fr": "Roche mère",
+                  "depth_start": 240,
+                  "depth_end": 340,
+                  "color": "#6b6058"
+                }
+              ]
+            },
+            {
+              "id": "richebourg",
+              "name": "Richebourg",
+              "type": "climat",
+              "classification": "grand-cru",
+              "area_ha": 8.0,
+              "geology_summary": "Iron-rich clay over broken limestone. The iron content gives the wine a distinctive mineral warmth absent in its neighbors.",
+              "strata": [
+                {
+                  "id": "topsoil",
+                  "name": "Topsoil",
+                  "name_fr": "Terre végétale",
+                  "depth_start": 0,
+                  "depth_end": 30,
+                  "color": "#d4b896"
+                },
+                {
+                  "id": "clay",
+                  "name": "Clay-Limestone",
+                  "name_fr": "Argilo-calcaire",
+                  "depth_start": 30,
+                  "depth_end": 90,
+                  "color": "#c4a060"
+                },
+                {
+                  "id": "limestone",
+                  "name": "Oolitic Limestone",
+                  "name_fr": "Calcaire oolithique",
+                  "depth_start": 90,
+                  "depth_end": 170,
+                  "color": "#e8dfc8"
+                },
+                {
+                  "id": "marl",
+                  "name": "Marl",
+                  "name_fr": "Marnes",
+                  "depth_start": 170,
+                  "depth_end": 260,
+                  "color": "#9aacb0"
+                },
+                {
+                  "id": "bedrock",
+                  "name": "Bedrock",
+                  "name_fr": "Roche mère",
+                  "depth_start": 260,
+                  "depth_end": 360,
+                  "color": "#6b6058"
+                }
+              ]
+            },
+            {
+              "id": "les-suchots",
+              "name": "Les Suchots",
+              "type": "climat",
+              "classification": "premier-cru",
+              "area_ha": 13.1,
+              "geology_summary": "Thicker topsoil and deeper marl layer compared to the Grand Cru plots above it on the slope. Good drainage but higher water retention.",
+              "strata": [
+                {
+                  "id": "topsoil",
+                  "name": "Topsoil",
+                  "name_fr": "Terre végétale",
+                  "depth_start": 0,
+                  "depth_end": 45,
+                  "color": "#d4b896"
+                },
+                {
+                  "id": "clay",
+                  "name": "Clay-Limestone",
+                  "name_fr": "Argilo-calcaire",
+                  "depth_start": 45,
+                  "depth_end": 100,
+                  "color": "#c4a060"
+                },
+                {
+                  "id": "limestone",
+                  "name": "Oolitic Limestone",
+                  "name_fr": "Calcaire oolithique",
+                  "depth_start": 100,
+                  "depth_end": 155,
+                  "color": "#e8dfc8"
+                },
+                {
+                  "id": "marl",
+                  "name": "Marl",
+                  "name_fr": "Marnes",
+                  "depth_start": 155,
+                  "depth_end": 280,
+                  "color": "#9aacb0"
+                },
+                {
+                  "id": "bedrock",
+                  "name": "Bedrock",
+                  "name_fr": "Roche mère",
+                  "depth_start": 280,
+                  "depth_end": 380,
+                  "color": "#6b6058"
+                }
+              ]
+            },
+            {
+              "id": "aux-malconsorts",
+              "name": "Aux Malconsorts",
+              "type": "climat",
+              "classification": "premier-cru",
+              "area_ha": 5.8,
+              "geology_summary": "Lower slope position means more alluvial deposit mixed into the topsoil. Heavier soil. Less drainage than the Grand Crus above.",
+              "strata": [
+                {
+                  "id": "topsoil",
+                  "name": "Topsoil",
+                  "name_fr": "Terre végétale",
+                  "depth_start": 0,
+                  "depth_end": 55,
+                  "color": "#d4b896"
+                },
+                {
+                  "id": "clay",
+                  "name": "Clay-Limestone",
+                  "name_fr": "Argilo-calcaire",
+                  "depth_start": 55,
+                  "depth_end": 120,
+                  "color": "#c4a060"
+                },
+                {
+                  "id": "limestone",
+                  "name": "Oolitic Limestone",
+                  "name_fr": "Calcaire oolithique",
+                  "depth_start": 120,
+                  "depth_end": 165,
+                  "color": "#e8dfc8"
+                },
+                {
+                  "id": "marl",
+                  "name": "Marl",
+                  "name_fr": "Marnes",
+                  "depth_start": 165,
+                  "depth_end": 290,
+                  "color": "#9aacb0"
+                },
+                {
+                  "id": "bedrock",
+                  "name": "Bedrock",
+                  "name_fr": "Roche mère",
+                  "depth_start": 290,
+                  "depth_end": 390,
+                  "color": "#6b6058"
+                }
+              ]
+            },
+            {
+              "id": "vosne-village",
+              "name": "Vosne-Romanée Village",
+              "type": "climat",
+              "classification": "village",
+              "area_ha": 94.0,
+              "geology_summary": "The village-level appellation. Varied geology across a broad area. No single defining characteristic — the opposite of Romanée-Conti 400 metres uphill.",
+              "strata": [
+                {
+                  "id": "topsoil",
+                  "name": "Topsoil",
+                  "name_fr": "Terre végétale",
+                  "depth_start": 0,
+                  "depth_end": 60,
+                  "color": "#d4b896"
+                },
+                {
+                  "id": "clay",
+                  "name": "Clay-Limestone",
+                  "name_fr": "Argilo-calcaire",
+                  "depth_start": 60,
+                  "depth_end": 130,
+                  "color": "#c4a060"
+                },
+                {
+                  "id": "limestone",
+                  "name": "Oolitic Limestone",
+                  "name_fr": "Calcaire oolithique",
+                  "depth_start": 130,
+                  "depth_end": 175,
+                  "color": "#e8dfc8"
+                },
+                {
+                  "id": "marl",
+                  "name": "Marl",
+                  "name_fr": "Marnes",
+                  "depth_start": 175,
+                  "depth_end": 300,
+                  "color": "#9aacb0"
+                },
+                {
+                  "id": "bedrock",
+                  "name": "Bedrock",
+                  "name_fr": "Roche mère",
+                  "depth_start": 300,
+                  "depth_end": 400,
+                  "color": "#6b6058"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gevrey-chambertin",
+          "name": "Gevrey-Chambertin",
+          "type": "village",
+          "children": [
+            {
+              "id": "chambertin",
+              "name": "Chambertin",
+              "type": "climat",
+              "classification": "grand-cru",
+              "area_ha": 12.9,
+              "geology_summary": "Brown limestone soil over hard Bajocian limestone bedrock. The bedrock sits unusually close to the surface on the upper part of the climat — under 80cm in places.",
+              "strata": [
+                {
+                  "id": "topsoil",
+                  "name": "Topsoil",
+                  "name_fr": "Terre végétale",
+                  "depth_start": 0,
+                  "depth_end": 25,
+                  "color": "#d4b896"
+                },
+                {
+                  "id": "clay",
+                  "name": "Clay-Limestone",
+                  "name_fr": "Argilo-calcaire",
+                  "depth_start": 25,
+                  "depth_end": 60,
+                  "color": "#c4a060"
+                },
+                {
+                  "id": "limestone",
+                  "name": "Oolitic Limestone",
+                  "name_fr": "Calcaire oolithique",
+                  "depth_start": 60,
+                  "depth_end": 110,
+                  "color": "#e8dfc8"
+                },
+                {
+                  "id": "marl",
+                  "name": "Marl",
+                  "name_fr": "Marnes",
+                  "depth_start": 110,
+                  "depth_end": 190,
+                  "color": "#9aacb0"
+                },
+                {
+                  "id": "bedrock",
+                  "name": "Bedrock",
+                  "name_fr": "Roche mère",
+                  "depth_start": 190,
+                  "depth_end": 280,
+                  "color": "#6b6058"
+                }
+              ]
+            },
+            {
+              "id": "clos-de-beze",
+              "name": "Chambertin-Clos de Bèze",
+              "type": "climat",
+              "classification": "grand-cru",
+              "area_ha": 15.4,
+              "geology_summary": "Adjacent to Chambertin but with a notably deeper clay-limestone band. First documented by Cistercian monks in 630 AD.",
+              "strata": [
+                {
+                  "id": "topsoil",
+                  "name": "Topsoil",
+                  "name_fr": "Terre végétale",
+                  "depth_start": 0,
+                  "depth_end": 30,
+                  "color": "#d4b896"
+                },
+                {
+                  "id": "clay",
+                  "name": "Clay-Limestone",
+                  "name_fr": "Argilo-calcaire",
+                  "depth_start": 30,
+                  "depth_end": 100,
+                  "color": "#c4a060"
+                },
+                {
+                  "id": "limestone",
+                  "name": "Oolitic Limestone",
+                  "name_fr": "Calcaire oolithique",
+                  "depth_start": 100,
+                  "depth_end": 150,
+                  "color": "#e8dfc8"
+                },
+                {
+                  "id": "marl",
+                  "name": "Marl",
+                  "name_fr": "Marnes",
+                  "depth_start": 150,
+                  "depth_end": 230,
+                  "color": "#9aacb0"
+                },
+                {
+                  "id": "bedrock",
+                  "name": "Bedrock",
+                  "name_fr": "Roche mère",
+                  "depth_start": 230,
+                  "depth_end": 310,
+                  "color": "#6b6058"
+                }
+              ]
+            },
+            {
+              "id": "lavaux-saint-jacques",
+              "name": "Lavaux Saint-Jacques",
+              "type": "climat",
+              "classification": "premier-cru",
+              "area_ha": 9.7,
+              "geology_summary": "Thin marl layer and early limestone exposure. Wines are lighter than the Grands Crus but retain the Gevrey mineral character.",
+              "strata": [
+                {
+                  "id": "topsoil",
+                  "name": "Topsoil",
+                  "name_fr": "Terre végétale",
+                  "depth_start": 0,
+                  "depth_end": 40,
+                  "color": "#d4b896"
+                },
+                {
+                  "id": "clay",
+                  "name": "Clay-Limestone",
+                  "name_fr": "Argilo-calcaire",
+                  "depth_start": 40,
+                  "depth_end": 85,
+                  "color": "#c4a060"
+                },
+                {
+                  "id": "limestone",
+                  "name": "Oolitic Limestone",
+                  "name_fr": "Calcaire oolithique",
+                  "depth_start": 85,
+                  "depth_end": 160,
+                  "color": "#e8dfc8"
+                },
+                {
+                  "id": "marl",
+                  "name": "Marl",
+                  "name_fr": "Marnes",
+                  "depth_start": 160,
+                  "depth_end": 210,
+                  "color": "#9aacb0"
+                },
+                {
+                  "id": "bedrock",
+                  "name": "Bedrock",
+                  "name_fr": "Roche mère",
+                  "depth_start": 210,
+                  "depth_end": 300,
+                  "color": "#6b6058"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chambolle-musigny",
+          "name": "Chambolle-Musigny",
+          "type": "village",
+          "children": [
+            {
+              "id": "musigny",
+              "name": "Musigny",
+              "type": "climat",
+              "classification": "grand-cru",
+              "area_ha": 10.7,
+              "geology_summary": "Chalky, well-drained soils with high active limestone content. Produces the most delicate and perfumed wines on the Côte de Nuits — the geology directly accounts for the lighter body.",
+              "strata": [
+                {
+                  "id": "topsoil",
+                  "name": "Topsoil",
+                  "name_fr": "Terre végétale",
+                  "depth_start": 0,
+                  "depth_end": 22,
+                  "color": "#d4b896"
+                },
+                {
+                  "id": "clay",
+                  "name": "Clay-Limestone",
+                  "name_fr": "Argilo-calcaire",
+                  "depth_start": 22,
+                  "depth_end": 50,
+                  "color": "#c4a060"
+                },
+                {
+                  "id": "limestone",
+                  "name": "Oolitic Limestone",
+                  "name_fr": "Calcaire oolithique",
+                  "depth_start": 50,
+                  "depth_end": 155,
+                  "color": "#e8dfc8"
+                },
+                {
+                  "id": "marl",
+                  "name": "Marl",
+                  "name_fr": "Marnes",
+                  "depth_start": 155,
+                  "depth_end": 220,
+                  "color": "#9aacb0"
+                },
+                {
+                  "id": "bedrock",
+                  "name": "Bedrock",
+                  "name_fr": "Roche mère",
+                  "depth_start": 220,
+                  "depth_end": 300,
+                  "color": "#6b6058"
+                }
+              ]
+            },
+            {
+              "id": "les-amoureuses",
+              "name": "Les Amoureuses",
+              "type": "climat",
+              "classification": "premier-cru",
+              "area_ha": 5.4,
+              "geology_summary": "Directly below Musigny on the slope. The extra depth of topsoil and clay produces wines considered by many to punch above their Premier Cru classification.",
+              "strata": [
+                {
+                  "id": "topsoil",
+                  "name": "Topsoil",
+                  "name_fr": "Terre végétale",
+                  "depth_start": 0,
+                  "depth_end": 38,
+                  "color": "#d4b896"
+                },
+                {
+                  "id": "clay",
+                  "name": "Clay-Limestone",
+                  "name_fr": "Argilo-calcaire",
+                  "depth_start": 38,
+                  "depth_end": 88,
+                  "color": "#c4a060"
+                },
+                {
+                  "id": "limestone",
+                  "name": "Oolitic Limestone",
+                  "name_fr": "Calcaire oolithique",
+                  "depth_start": 88,
+                  "depth_end": 160,
+                  "color": "#e8dfc8"
+                },
+                {
+                  "id": "marl",
+                  "name": "Marl",
+                  "name_fr": "Marnes",
+                  "depth_start": 160,
+                  "depth_end": 250,
+                  "color": "#9aacb0"
+                },
+                {
+                  "id": "bedrock",
+                  "name": "Bedrock",
+                  "name_fr": "Roche mère",
+                  "depth_start": 250,
+                  "depth_end": 340,
+                  "color": "#6b6058"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
