@@ -1,0 +1,50 @@
+:root {
+  /* Background system */
+  --color-bg-base: #faf6f0;
+  --color-bg-warm: #f5ede0;
+
+  /* Tile depth levels — lighter = higher physically */
+  --color-tile-level-1: #f0e6d0; /* region */
+  --color-tile-level-2: #e4d5b7; /* subregion / village */
+  --color-tile-level-3-gc: #c8a882; /* climat grand cru */
+  --color-tile-level-3-pc: #d4b896; /* climat premier cru */
+  --color-tile-level-3-vl: #ddc9ac; /* climat village */
+
+  /* Strata — top to bottom, lighter to darker */
+  --color-strata-topsoil: #d4b896;
+  --color-strata-clay: #c4a060;
+  --color-strata-limestone: #e8dfc8;
+  --color-strata-marl: #9aacb0;
+  --color-strata-bedrock: #6b6058;
+
+  /* Brand */
+  --color-burgundy: #451425;
+  --color-burgundy-mid: #8b4a5c;
+  --color-burgundy-pale: #c49aaa;
+  --color-burgundy-ghost: #f0e4e8;
+
+  /* Text */
+  --color-text-primary: #2a1a1f;
+  --color-text-muted: #9c7a82;
+  --color-text-faint: #c4aab0;
+
+  /* Borders */
+  --color-border: #e8dcc8;
+  --color-border-strong: #d4c0a8;
+
+  /* Typography */
+  --font-display: "Cormorant Garamond", serif;
+  --font-body: "Libre Baskerville", serif;
+  --font-mono: "DM Mono", monospace;
+
+  /* Spacing */
+  --navbar-height: 64px;
+
+  /* Tile geometry */
+  --tile-size: 200px;
+  --tile-gap: 20px;
+
+  /* Transitions */
+  --transition-fast: 200ms ease-out;
+  --transition-mid: 400ms ease-in-out;
+}
