@@ -1,0 +1,48 @@
+.wrapper {
+  flex: 1;
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  scrollbar-width: none;
+  position: relative;
+  padding: 60px 80px;
+}
+
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.fadeEdge {
+  position: fixed;
+  right: 0;
+  top: var(--navbar-height);
+  bottom: 0;
+  width: 120px;
+  background: linear-gradient(to left, var(--color-bg-base), transparent);
+  pointer-events: none;
+  z-index: 10;
+}
+
+.isoContainer {
+  transform: rotateX(60deg) rotateZ(45deg);
+  transform-style: preserve-3d;
+  transform-origin: center center;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tile-gap);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: var(--tile-gap);
+}
+
+/* Offset row 2 by half a tile to create staggered pattern */
+.rowOffset {
+  margin-left: calc((var(--tile-size) + var(--tile-gap)) / 2);
+}
